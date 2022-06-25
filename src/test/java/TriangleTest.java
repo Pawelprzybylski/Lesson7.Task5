@@ -3,7 +3,7 @@ import org.junit.Test;
 public class TriangleTest {
 
     @Test
-    public void ShouldBeNotRectangularWhenAHigherThanSumAAndB() {
+    public void shouldBeNotRectangularWhenAHigherThanSumAAndB() {
         //given
         double a = 10;
         double b = 4;
@@ -15,7 +15,7 @@ public class TriangleTest {
     }
 
     @Test
-    public void ShouldBeNotRectangularWhenBHigherThanSumCAndB() {
+    public void shouldBeNotRectangularWhenBHigherThanSumCAndB() {
         //given
         double a = 4;
         double b = 10;

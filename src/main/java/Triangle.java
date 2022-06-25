@@ -8,10 +8,10 @@ public class Triangle {
         } else {
             return checkRectangularCondition(a, b, c);
         }
-        }
+    }
 
-        private static boolean checkRectangularCondition ( double a, double b, double c){
-            return (Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2));
+    private static boolean checkRectangularCondition(double a, double b, double c) {
+        return (Math.pow(c, 2) == Math.pow(a, 2) + Math.pow(b, 2));
     }
 
 }
